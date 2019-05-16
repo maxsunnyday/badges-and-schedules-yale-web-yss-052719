@@ -14,7 +14,7 @@ end
 
 def assign_rooms(speakers)
   speakers.each_with_index{ |item, index|
-    return "Hello speaker" item "! You'll be assigned to room " index "."
+    return "Hello, #{item}! You'll be assigned to room #{index}."
   }
 end
 
